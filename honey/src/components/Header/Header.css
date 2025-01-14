@@ -1,0 +1,14 @@
+header{
+    width: 1500px;
+    height: 865px;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    background: url(../../assets/Bg-img.png) no-repeat center center/cover;
+}
+.header {
+    background: linear-gradient(rgba(255, 157, 45, 1) , rgba(255, 216, 119, 1));
+    display: flex;
+    width: 1500px;
+    justify-content: space-between;
+}

@@ -1,0 +1,38 @@
+section{
+    width: 1400px;
+    margin: auto;
+    margin-top: 150px;
+    color: rgba(0, 0, 0, 1);
+}
+section .info{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    width: 100%;
+}
+section .info h2{
+   font-weight: 700;
+   font-size: 45px;
+   line-height: 62.45px;
+}
+section .info p{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 35.2px;
+    opacity: 70%;
+    margin-top: 10px;
+}
+section .info button{
+    background: rgba(229, 131, 17, 1);
+    padding: 15px 40px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    line-height: 28.8px;
+    font-weight: 700;
+    border: none;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+}
+section .first-info-text{
+    margin-left: 25px;
+}
