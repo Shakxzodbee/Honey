@@ -1,14 +1,16 @@
 import React, { useEffect } from 'react'
-import Honey from '../../assets/_x32_.png'
+// import Honey from '../../assets/_x32_.png'
 import Bee from '../../assets/18030479-removebg 1.png'
 import Line from '../../assets/Line 1.png'
 import HoneyWithBee from '../../assets/Group 55.png'
 import './Header.css'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
+import { toast } from 'react-toastify';
 const Header = () => {
+    const notify = () => toast.warn("direction not determined !");
     useEffect(() => {
-      Aos.init({duration: 3000})
+        Aos.init({ duration: 3000 })
     }, [])
     return (
         <header>
@@ -26,7 +28,7 @@ const Header = () => {
                         </div>
                         <div className='btn-div'>
                             <button>Buy Now</button>
-                            <button className='second-btn'>Learn More</button>
+                            <button className='second-btn' onClick={notify}>Learn More</button>
                         </div>
                     </div>
                     <div>

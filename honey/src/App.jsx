@@ -1,12 +1,14 @@
-import './App.css'
-import React from 'react'
+import Testimonial from './components/Testeminional/Testimonial'
+import Sponsor from './components/Sponsors/Sponsors'
+import Product from './components/Product/Product'
+import { ToastContainer } from 'react-toastify';
 import Navbar from './components/Navbar/Navbar'
 import Header from './components/Header/Header'
-import Sponsor from './components/Sponsors/Sponsors'
-import Info from './components/Info/Info'
-import Product from './components/Product/Product'
 import Footer from './components/Footer/Footer'
-import Testimonial from './components/Testeminional/Testimonial'
+import 'react-toastify/dist/ReactToastify.css';
+import Info from './components/Info/Info'
+import React from 'react'
+import './App.css'
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
       <Info />
       <Product />
       <Testimonial />
+      <ToastContainer />
       <Footer />
     </div>
   )
