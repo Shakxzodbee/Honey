@@ -33,6 +33,12 @@ section .info button{
     transition: all 0.3s ease;
     margin-top: 20px;
 }
+section .info button:hover{
+    color: rgba(229, 131, 17, 1);
+    background: rgba(0, 0, 0, 1);
+    border-radius: 10px;
+    cursor: pointer;
+}
 section .first-info-text{
     margin-left: 25px;
 }

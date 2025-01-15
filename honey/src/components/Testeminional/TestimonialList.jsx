@@ -1,40 +1,37 @@
 import React from 'react';
-import Testimonial from './Testimonial';
-
-const testimonialData = [
-  {
-    name: 'John Doe',
-    title: 'CEO at Example Inc.',
-    text: 'This is an amazing product! Highly recommend it.',
-    image: 'https://via.placeholder.com/100'
-  },
-  {
-    name: 'Jane Smith',
-    title: 'Designer at Creative Studios',
-    text: 'A game-changer for our team. We love it!',
-    image: 'https://via.placeholder.com/100'
-  },
-  {
-    name: 'Alice Johnson',
-    title: 'Product Manager at Tech Solutions',
-    text: 'The best investment we made this year.',
-    image: 'https://via.placeholder.com/100'
-  }
-];
+import TestimonialCard from './TestimonialCard';
+import HoneyFirstImg from '../../assets/miel_eucalyptus_forets_andalousie 1.png'
+import HoneySecondImg from '../../assets/basswood-honey-removebg 1.png'
 
 const TestimonialList = () => {
+  const testimonials = [
+    {
+      name: 'Eucalyptus Honey	',
+      text: 'It has the scent of lavender, medium sweetness lavender scented, and has a medium amber color.',
+      imgSrc: HoneyFirstImg,
+    },
+    {
+      name: 'Basswood Honey',
+      text: 'Basswood is a tree native and abundant in Wisconsin, which is also known as the Linden tree.',
+      imgSrc: HoneySecondImg,
+    },
+    {
+      name: 'Basswood Honey',
+      text: 'Basswood is a tree native and abundant in Wisconsin, which is also known as the Linden tree.',
+      imgSrc: HoneySecondImg,
+    },
+        {
+      name: 'Eucalyptus Honey	',
+      text: 'It has the scent of lavender, medium sweetness lavender scented, and has a medium amber color.',
+      imgSrc: HoneyFirstImg,
+    },
+  ];
+
   return (
     <div className="testimonial-list">
-      {testimonialData.map((testimonial, index) => (
-        <Testimonial
-          key={index}
-          name={testimonial.name}
-          title={testimonial.title}
-          text={testimonial.text}
-          image={testimonial.image}
-        />
+      {testimonials.map((testimonial, index) => (
+        <TestimonialCard key={index} {...testimonial} />
       ))}
-      <h1>Cooming Soon</h1>
     </div>
   );
 };

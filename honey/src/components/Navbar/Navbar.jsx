@@ -1,9 +1,14 @@
+import React, { useEffect } from 'react'
 import './Navbar.css'
-import React from 'react'
 import Logo from '../../assets/logo.png'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 const Navbar = () => {
+    useEffect(() => {
+        Aos.init({ duration: 1000 })
+    }, [])
     return (
-        <div className='navbar'>
+        <div className='navbar' data-aos="fade-down">
             <div className="logo">
                 <img src={Logo} alt="" />
             </div>

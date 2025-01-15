@@ -6,19 +6,19 @@ import Sponsor from './components/Sponsors/Sponsors'
 import Info from './components/Info/Info'
 import Product from './components/Product/Product'
 import Footer from './components/Footer/Footer'
-// import TestimonialList from './components/Testeminional/TestimonialList'
+import Testimonial from './components/Testeminional/Testimonial'
+
 function App() {
   return (
-    <>
+    <div>
       <Navbar />
       <Header />
       <Sponsor />
       <Info />
       <Product />
-      {/* <TestimonialList/> */}
-      <h1>Cooming Soon Testeminional Page</h1>
+      <Testimonial />
       <Footer />
-    </>
+    </div>
   )
 }
 

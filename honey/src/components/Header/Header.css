@@ -1,14 +1,91 @@
-header{
+header {
+    margin: auto;
+    width: 100%;
+    margin-top: 20px;
+    /* background: url(../../assets/_x32_.png) no-repeat center center/cover; */
+}
+
+.header {
+    display: flex;
     width: 1500px;
     height: 865px;
-    display: flex;
     margin: auto;
-    margin-top: 20px;
-    background: url(../../assets/Bg-img.png) no-repeat center center/cover;
-}
-.header {
-    background: linear-gradient(rgba(255, 157, 45, 1) , rgba(255, 216, 119, 1));
-    display: flex;
-    width: 1500px;
+    padding-top: 182px;
     justify-content: space-between;
+    background: linear-gradient(rgba(255, 157, 45, 1) , rgba(255, 216, 119, 1));
+    border-radius: 30px;
+}
+.header .ContainerThenFirstDiv{
+    background: url(../../assets/Bg-img.png) no-repeat center center/cover;
+    width: 1400px;
+    margin: auto;
+    display: flex;
+}
+
+header h1,
+header h2 {
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 130px;
+    color: rgba(11, 11, 11, 1);
+}
+
+header h2 {
+    margin-left: 100px;
+}
+
+header .BeeWithName{
+    display: flex;
+}
+header .second-h2{
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 130px;
+    color: rgba(11, 11, 11, 1);
+}
+header .BeeWithName{
+    width: 658px;
+}
+header .BeeWithName .img{
+    display: block;
+    width: 274px;
+}
+header .BeeWithName .BeeLine{
+    margin-bottom: 93px;
+}
+header .BeeImg{
+    position: relative;
+    top: 10px;
+}
+header button {
+    background-color: rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    gap: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28.8px;
+    padding: 18px 50px;
+    border: 2px solid rgba(0, 0, 0, 1);
+}
+header .btn-div .second-btn{
+    background-color: inherit;
+    color: rgba(0, 0, 0, 1);
+    margin-left: 30px;
+}
+header button:hover{
+    background-color: inherit;
+    color: rgba(0, 0, 0, 1);
+    transition: 500ms ease all;
+    border-radius: 5px;
+    cursor: pointer;
+}
+header .btn-div .second-btn:hover{
+    background-color: rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+}
+header .HoneImgPosition{
+    position: relative;
+    bottom: 820px;
+    width: 200px;
+    margin-left: 30px;
 }

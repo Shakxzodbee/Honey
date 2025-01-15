@@ -1,19 +1,24 @@
 import './Sponsors.css'
-import React from 'react'
+import React, { useEffect } from 'react'
 import FirstBrand from '../../assets/brand4.png'
 import SecondBrand from '../../assets/brand1.png'
 import ThirdBrand from '../../assets/brand2.png'
 import FourthBrand from '../../assets/brand3.png'
-const Sponsor = ()=>{
-    return(
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+const Sponsor = () => {
+    useEffect(() => {
+        Aos.init({ duration: 3000 })
+    }, [])
+    return (
         <div className="Sponsor">
-            <h2>Our Trusted Shops</h2>
+            <h2 data-aos="fade-down" data-aos-duration="2000">Our Trusted Shops</h2>
 
-            <div className='brand-container'>
-                <img src={FirstBrand} alt="" />
-                <img src={SecondBrand} alt="" />
-                <img src={ThirdBrand} alt="" />
-                <img src={FourthBrand} alt="" />
+            <div className='brand-container' data-aos="zoom-in">
+                <img  src={FirstBrand} alt="" />
+                <img  src={SecondBrand} alt="" />
+                <img  src={ThirdBrand} alt="" />
+                <img  src={FourthBrand} alt="" />
             </div>
         </div>
     )

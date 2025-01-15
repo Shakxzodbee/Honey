@@ -1,4 +1,46 @@
-.footer{
-    background: linear-gradient(rgba(255, 157, 45, 1) , rgba(255, 216, 119, 1));
+footer {
     margin-top: 100px;
+    width: 100%;
+    background: linear-gradient(rgba(255, 157, 45, 1), rgba(255, 216, 119, 1));
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer {
+    width: 1150px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.logo {
+    align-items: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 196px;
+    align-items: center;
+}
+
+.social-icons img {
+    width: 25px;
+    height: 25px;
+}
+
+.download {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.icon {
+    transition: transform 0.3s, color 0.3s;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+    color: #ff4500;
+    cursor: pointer;
 }

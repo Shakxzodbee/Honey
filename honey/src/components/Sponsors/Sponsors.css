@@ -15,3 +15,7 @@
     justify-content: space-between;
     margin-top: 50px;
 }
+.brand-container img:hover{
+    transform: scale(1.5);
+    transition: 500ms ease all;
+}
