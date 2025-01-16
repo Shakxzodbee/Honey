@@ -1,11 +1,14 @@
-import './Product.css'
 import React, { useEffect } from 'react'
-import Aos from 'aos'
 import 'aos/dist/aos.css'
+import './Product.css'
+import Aos from 'aos'
+
 const Product = () => {
+
     useEffect(() => {
         Aos.init({ duration: 3000 })
     }, [])
+
     return (
         <div>
             <div className='product-container' data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">

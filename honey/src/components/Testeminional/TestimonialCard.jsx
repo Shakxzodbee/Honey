@@ -1,11 +1,13 @@
 import React, { useEffect } from 'react'
 import './TestimonialCard.css';
-import Aos from 'aos'
 import 'aos/dist/aos.css'
+import Aos from 'aos'
 const TestimonialCard = ({ name, text, imgSrc }) => {
-      useEffect(() => {
-        Aos.init({duration: 1000})
-      }, [])
+
+  useEffect(() => {
+    Aos.init({ duration: 1000 })
+  }, [])
+
   return (
     <div className='wrap'>
       <div className="testimonial-card" data-aos="fade-up" data-aos-anchor-placement="center-bottom">

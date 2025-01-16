@@ -44,3 +44,78 @@ footer {
     color: #ff4500;
     cursor: pointer;
 }
+@media (max-width:1156px) {
+    .footer{
+        width: 900px;
+    }
+}
+@media (max-width:900px) {
+    .footer{
+        width: 700px;
+    }
+    .text-div p{
+        font-size: 12px;
+    }
+    .icon{
+        font-size: 20px;
+    }
+    .social-icons {
+        width: 150px;
+    }
+    .download{
+        width: 250px;
+        justify-content: space-between;
+    }
+    .download img{
+        width: 100px;
+    }
+}
+@media (max-width:700px) {
+    .footer{
+        display: block;
+        width: 90%;
+        text-align: center;
+        margin: auto;
+    }
+    .social-icons , .download{
+        margin: auto;
+    }
+    .logo img{
+        width: 100px;
+    }
+    .text-div p{
+        font-size: 19px;
+        line-height: 25px;
+    }
+    .social-icons{
+        margin-top: 20px;
+    }
+    .download{
+        margin-top: 40px;
+        width: 350px;
+    }
+    .download img{
+        width: 130px;
+    }
+}
+@media (max-width:370px) {
+    .text-div p{
+        font-size: 17px;
+        line-height: 20px;
+    }
+    .download{
+        width: 300px;
+    }
+}
+@media (max-width:320px) {
+    .download{
+        width: 250px;
+    }
+    .download img{
+        width: 100px;
+    }
+    .text-div p{
+        font-size: 13px;
+    }
+
+}

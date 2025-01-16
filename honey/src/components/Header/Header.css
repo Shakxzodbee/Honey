@@ -12,10 +12,11 @@ header {
     margin: auto;
     padding-top: 182px;
     justify-content: space-between;
-    background: linear-gradient(rgba(255, 157, 45, 1) , rgba(255, 216, 119, 1));
+    background: linear-gradient(rgba(255, 157, 45, 1), rgba(255, 216, 119, 1));
     border-radius: 30px;
 }
-.header .ContainerThenFirstDiv{
+
+.header .ContainerThenFirstDiv {
     background: url(../../assets/Bg-img.png) no-repeat center center/cover;
     width: 1400px;
     margin: auto;
@@ -34,29 +35,35 @@ header h2 {
     margin-left: 100px;
 }
 
-header .BeeWithName{
+header .BeeWithName {
     display: flex;
 }
-header .second-h2{
+
+header .second-h2 {
     font-weight: 700;
     font-size: 100px;
     line-height: 130px;
     color: rgba(11, 11, 11, 1);
 }
-header .BeeWithName{
+
+header .BeeWithName {
     width: 658px;
 }
-header .BeeWithName .img{
+
+header .BeeWithName .img {
     display: block;
     width: 274px;
 }
-header .BeeWithName .BeeLine{
+
+header .BeeWithName .BeeLine {
     margin-bottom: 93px;
 }
-header .BeeImg{
+
+header .BeeImg {
     position: relative;
     top: 10px;
 }
+
 header button {
     background-color: rgba(0, 0, 0, 1);
     color: rgba(255, 255, 255, 1);
@@ -67,25 +74,240 @@ header button {
     padding: 18px 50px;
     border: 2px solid rgba(0, 0, 0, 1);
 }
-header .btn-div .second-btn{
+
+header .btn-div .second-btn {
     background-color: inherit;
     color: rgba(0, 0, 0, 1);
     margin-left: 30px;
 }
-header button:hover{
+
+header button:hover {
     background-color: inherit;
     color: rgba(0, 0, 0, 1);
     transition: 500ms ease all;
     border-radius: 5px;
     cursor: pointer;
 }
-header .btn-div .second-btn:hover{
+
+header .btn-div .second-btn:hover {
     background-color: rgba(0, 0, 0, 1);
     color: rgba(255, 255, 255, 1);
 }
-header .HoneImgPosition{
+
+header .HoneImgPosition {
     position: relative;
     bottom: 820px;
     width: 200px;
     margin-left: 30px;
+}
+
+@media (max-width:1510px) {
+    .header {
+        width: 1300px;
+    }
+
+    .header .ContainerThenFirstDiv {
+        width: 1200px;
+    }
+
+    header .BeeWithName {
+        width: 570px;
+    }
+}
+
+@media (max-width:1315px) {
+    .header {
+        width: 1200px;
+    }
+    .ContainerThenFirstDiv{
+        padding: 20px;
+    }
+    header h1,
+    header h2,
+    header .second-h2 {
+        font-size: 80px;
+        line-height: 100px;
+    }
+    .Honeys img{
+        width: 570px;
+    }
+}
+@media (max-width:1200px) {
+    .header{
+        width: 1000px;
+    }
+    .header .ContainerThenFirstDiv {
+        width: 1000px;
+    }
+    header h1,
+    header h2,
+    header .second-h2 {
+        font-size: 70px;
+        line-height: 80px;
+    }
+    header .BeeWithName .img {
+        width: 166px;
+    }
+    .Honeys img{
+        width: 400px;
+    }
+}
+@media (max-width:1000px) {
+    .header{
+        height: auto;
+        width: 90%;
+        text-align: center;
+    }
+    .Honeys , .btn-div{
+        text-align: center;
+    }
+    .header .ContainerThenFirstDiv{
+        display: block;
+    }
+    .Honeys img{
+        margin-top: 20px;
+        width: 600px;
+    }
+    header .BeeWithName {
+        margin: auto;
+    }
+    header h1,
+    header h2,
+    header .second-h2 {
+        font-size: 90px;
+        line-height: 100px;
+    }
+}
+@media (max-width:730px) {
+    .Honeys img{
+        width: 500px;
+    }
+    header h1,
+    header h2,
+    header .second-h2 {
+        font-size: 80px;
+        line-height: 90px;
+    }
+    .img .BeeImg{
+        width: 200px;
+    }
+    .img .BeeLine{
+        width: 300px;
+    }
+    .header .ContainerThenFirstDiv {
+        width: 100%;
+    }
+    .header{
+        width: 95%;
+    }
+}
+@media (max-width:625px) {
+    .Honeys img{
+        width: 450px;
+    }
+    header .BeeWithName {
+        width: 550px;
+    }
+}
+@media (max-width:600px) {
+    header .btn-div button{
+        padding: 15px 40px;
+    }
+    .img .BeeImg{
+        width: 150px;
+    }
+    .img .BeeLine{
+      width: 200px;
+    }
+    header h1, header h2, header .second-h2 {
+        font-size: 70px;
+        line-height: 70px;
+    }
+    .header .ContainerThenFirstDiv {
+        padding: 5px 10px;
+    }
+    .header .BeeWithName{
+        width: auto;
+    }
+    header h2 {
+        margin-left: 50px;
+    }
+}
+@media (max-width:500px) {
+    header h1, header h2, header .second-h2 {
+        font-size: 60px;
+        line-height: 55px;
+    }
+    .img .BeeImg {
+        width: 100px;
+    }
+    .img .BeeLine {
+        width: 140px;
+    }
+    .Honeys img {
+        width: 360px;
+    }
+}
+@media (max-width:442px) {
+    header h1, header h2, header .second-h2 {
+        font-size: 49px;
+        line-height: 45px;
+    }
+    header .btn-div button {
+        padding: 10px 30px;
+        font-size: 15px;
+        line-height: 20.8px;
+    }
+}
+@media (max-width:385px) {
+    .Honeys img {
+        width: 300px;
+    }
+    header h1, header h2, header .second-h2 {
+        font-size: 37px;
+        line-height: 33px;
+    }
+    .img .BeeImg {
+        width: 75px;
+    }
+    header .BeeWithName .BeeLine {
+        margin-bottom: 50px;
+    }
+    .img .BeeLine {
+        width: 90px;
+    }
+    header .btn-div button {
+        padding: 8px 20px;
+        font-size: 13px;
+        line-height: 15.8px;
+    }
+}
+@media (max-width:318px) {
+    .Honeys img {
+        width: 240px;
+    }
+    header h1, header h2, header .second-h2 {
+        font-size: 34px;
+        line-height: 30px;
+    }
+    .header{
+        padding-top: 50px;
+    }
+}
+@media (max-width:287px) {
+    header .btn-div button {
+        padding: 6px 18px;
+        font-size: 12px;
+        line-height: 13.8px;
+    }
+    header h1, header h2, header .second-h2 {
+        font-size: 30px;
+        line-height: 23px;
+    }
+    .img .BeeImg {
+        width: 60px;
+    }
+    header .BeeWithName .BeeLine {
+        margin-bottom: 30px;
+    }
 }
