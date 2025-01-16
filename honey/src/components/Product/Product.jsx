@@ -2,8 +2,12 @@ import React, { useEffect } from 'react'
 import 'aos/dist/aos.css'
 import './Product.css'
 import Aos from 'aos'
+import { toast } from 'react-toastify';
 
 const Product = () => {
+
+    const notify = () => toast.error("no other information found !");
+
 
     useEffect(() => {
         Aos.init({ duration: 3000 })
@@ -16,7 +20,7 @@ const Product = () => {
                     <h3>Our Product</h3>
                 </div>
                 <div className="Allproduct">
-                    <span>See all</span>
+                    <span onClick={notify}>See all</span>
                 </div>
             </div>
         </div>
