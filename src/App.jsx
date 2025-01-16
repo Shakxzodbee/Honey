@@ -14,13 +14,13 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Header /> {/* Full Complete  */}
-      <Sponsor />  {/* Full Complete */}
-      <Info />  {/* Full Complete  */}
-      <Product /> {/*  Full Complete */}
-      <Testimonial /> {/* Full Complete  */}
-      <ToastContainer /> {/*  Full Complete */}
-      <Footer /> {/* Full Complete  */}
+      <Header /> 
+      <Sponsor /> 
+      <Info /> 
+      <Product /> 
+      <Testimonial />  
+      <ToastContainer /> 
+      <Footer /> 
     </div>
   )
 }
