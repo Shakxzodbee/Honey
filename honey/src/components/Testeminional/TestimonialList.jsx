@@ -15,11 +15,6 @@ const TestimonialList = () => {
       text: 'Basswood is a tree native and abundant in Wisconsin, which is also known as the Linden tree.',
       imgSrc: HoneySecondImg,
     },
-    {
-      name: 'Basswood Honey',
-      text: 'Basswood is a tree native and abundant in Wisconsin, which is also known as the Linden tree.',
-      imgSrc: HoneySecondImg,
-    },
         {
       name: 'Eucalyptus Honey	',
       text: 'It has the scent of lavender, medium sweetness lavender scented, and has a medium amber color.',

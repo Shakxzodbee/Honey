@@ -15,10 +15,10 @@ function App() {
     <div>
       <Navbar />
       <Header />
-      <Sponsor />
+      <Sponsor />   {/* Full Complete */}
       <Info />
-      <Product />
-      <Testimonial />
+      <Product />  {/* Full Complete */}
+      <Testimonial /> {/* Full Complete  */}
       <ToastContainer />
       <Footer />
     </div>

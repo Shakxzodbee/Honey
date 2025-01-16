@@ -16,8 +16,11 @@ const Sponsor = () => {
 
             <div className='brand-container' data-aos="zoom-in">
                 <img  src={FirstBrand} alt="" />
+                <br />
                 <img  src={SecondBrand} alt="" />
+                <br />
                 <img  src={ThirdBrand} alt="" />
+                <br />
                 <img  src={FourthBrand} alt="" />
             </div>
         </div>

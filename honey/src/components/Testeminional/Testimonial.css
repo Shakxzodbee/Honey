@@ -1,15 +1,1 @@
-.testimonial-container {
-  width: 1146px;
-  padding-top: 50px;
-  display: flex;
-  margin: auto;
-  justify-content: space-between;
-}
-.testimonial-cards {
-  display: flex;
-}
-
-.testimonial-card {
-  flex: 1 1 300px; /* Kartalar minimal kengligi */
-  margin: 10px; /* Har bir kartaga bo'sh joy qo'shish */
-}
+.testimonial-container{width:1146px;padding-top:50px;display:flex;margin:auto;justify-content:space-between}.testimonial-cards{display:flex}.testimonial-card{margin:10px}@media (max-width:1170px){.testimonial-container{width:1000px;margin:auto}}@media (max-width:1077px){.testimonial-container{width:85%;margin:auto}}
